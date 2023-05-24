@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media-queries.css">
+    <title>Ahmeds Cafe </title>
+</head>
+
+<body>
+    <section class="container">
+        <img src="images/cafe.jpg" alt="" class="background">
+        
+        <section class="content d-grid">
+
+            <!-- THIS SECTION IS FOR LEFT AND MAIN MENU -->
+            <section class="menu">
+                <ul class="menu-list d-grid">
+                    <li class="menu-list-item btn d-flex logo"><i class="fa fa-coffee"></i>Ahmeds Cafe</li>
+                    <li class="menu-list-item btn d-flex menu-list-item-active"><i class="fas fa-mug-hot"></i>Drink Menu</li>
+                    <li class="menu-list-item btn d-flex"><i class="fa fa-group"></i>About Us</li>
+                    <li class="menu-list-item btn d-flex"><i class="fa fa-glass"></i>Special Items</li>
+                    <li class="menu-list-item btn d-flex"><i class="fa fa-comments"></i>Contact</li>
+                </ul>
+            </section>
+
+            <!-- THIS IS A EMPTY SECTION. BECAUSE SECTION MENU HAS NO WEIGHT. -->
+            <section></section>
+
+            <!-- DIFFERENT MENU THAT SHOWS IN THE RIGHT OF THE PAGE OR DOWN WHILE SCREEN SMALLER -->
+            <section class="options">
+
+                <!-- CONTENT OF DRINK MENU -->
+                <section class="drink-menus option d-grid">
+                    <section class="choices">
+                        <ul class="d-flex light-black-bg">
+                            <li class="drink-menu-header drink-menu-active">Iced Coffee</li>
+                            <li class="drink-menu-header">Hot Coffee</li>
+                            <li class="drink-menu-header">Fruit Juice</li>
+                        </ul>
+                    </section>
+                    <section class="coffee-menu iced-coffee">
+                        <ul class="d-grid">
+                            <li class="drink-items d-flex">
+                                <img src="./images/iced-americano.png" alt="iced-americano">
+                                <div class="info-drink light-black-bg d-grid">
+                                    <div class="d-flex header-price">
+                                        <h4>Iced Americano</h4>
+                                        <span class="light-blue-color">$10</span>
+                                    </div>
+                                    <p>Iced Americano, a cool and a relaxing coffee beverage. <br> It's prepared by pouring espresso shots over ice and adding water, resulting in a revitalizing and robust drink.
+
+
+
+
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="drink-items d-flex">
+                                <img src="./images/iced-cappuccino.png" alt="iced-cappuccino">
+                                <div class="info-drink light-black-bg d-grid">
+                                    <div class="d-flex header-price">
+                                        <h4>Iced Cappuccino</h4>
+                                        <span class="light-blue-color">$14</span>
+                                    </div>
+                                    <p>Iced Cappuccino a refreshing and creamy coffee delight.  <br> It features espresso shots, chilled milk, and frothy foam served over ice, creating a delightful and indulgent beverage. </p>
+                                </div>
+                            </li>
+
+                            
+
+                            <li class="drink-items d-flex">
+                                <img src="./images/iced-latte.png" alt="iced-latte">
+                                <div class="info-drink light-black-bg d-grid">
+                                    <div class="d-flex header-price">
+                                        <h4>Iced Latte</h4>
+                                        <span class="light-blue-color">$10</span>
+                                    </div>
+                                    <p>Iced Latte a cool and creamy coffee creation.<br>It combines espresso shots, chilled milk, and is served over ice for a refreshing and satisfying experience. </p>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </section>
+
+                    <section class="coffee-menu hot-coffee d-none">
+                        <ul class="d-grid">
+                            <li class="drink-items d-flex">
+                                <img src="./images/hot-americano.png" alt="Americano">
+                                <div class="info-drink light-black-bg d-grid">
+                                    <div class="d-flex header-price">
+                                        <h4>Hot Americano</h4>
+                                        <span class="light-blue-color">$10</span>
+                                    </div>
+                                    <p>Hot Americano is a classic coffee beverage that delivers a bold and robust flavor. Made with a shot of espresso and hot water, it offers a rich and satisfying taste with a smooth finish. Perfect for coffee enthusiasts seeking a warm and invigorating drink.<br> </p>
+                                </div>
+                            </li>
+
+                            <li class="drink-items d-flex">
+                                <img src="./images/hot-cappuccino.png" alt="Cappuccino">
+                                <div class="info-drink light-black-bg d-grid">
+                                    <div class="d-flex header-price">
+                                        <h4>Hot Cappuccino</h4>
+                                        <span class="light-blue-color">$10</span>
+                                    </div>
+                                    <p>Hot Cappuccino is a creamy and indulgent coffee delight, featuring rich espresso, velvety milk, and a frothy foam topping. It's a luxurious and satisfying choice for coffee enthusiasts.</p>
+                                </div>
+                            </li>
+
+                            
+
+                            <li class="drink-items d-flex">
+                                <img src="./images/hot-latte.png" alt="Latte">
+                                <div class="info-drink light-black-bg d-grid">
+                                    <div class="d-flex header-price">
+                                        <h4>Hot Latte</h4>
+                                        <span class="light-blue-color">$7</span>
+                                    </div>
+                                    <p>Hot Latte is a comforting and creamy coffee beverage, made with smooth espresso and steamed milk. It offers a delightful balance of bold coffee flavors and a velvety texture, perfect for those seeking a warm and soothing coffee experience.</p>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </section>
+
+                    <section class="coffee-menu fruit-juice d-none">
+                        <ul class="d-grid">
+                            <li class="drink-items d-flex">
+                                <img src="./images/smoothie-1.png" alt="smoothie-1">
+                                <div class="info-drink light-black-bg d-grid">
+                                    <div class="d-flex header-price">
+                                        <h4>Strawberry Smoothie</h4>
+                                        <span class="light-blue-color">$15</span>
+                                    </div>
+                                    <p>Strawberry Smoothie is a delightful combination of sweet and juicy strawberries, providing a refreshing and creamy texture with a burst of fruity flavor.</p>
+                                </div>
+                            </li>
+
+                            <li class="drink-items d-flex">
+                                <img src="./images/smoothie-2.png" alt="smoothie-2">
+                                <div class="info-drink light-black-bg d-grid">
+                                    <div class="d-flex header-price">
+                                        <h4>Red Berry Smoothie</h4>
+                                        <span class="light-blue-color">$11</span>
+                                    </div>
+                                    <p>Red Berry Smoothie is a delicious blend of tangy and sweet red berries, offering a refreshing and creamy texture.</p>
+                                </div>
+                            </li>
+
+                            <li class="drink-items d-flex">
+                                <img src="./images/smoothie-3.png" alt="smoothie-3">
+                                <div class="info-drink light-black-bg d-grid">
+                                    <div class="d-flex header-price">
+                                        <h4>Pineapple Smoothie</h4>
+                                        <span class="light-blue-color">$18</span>
+                                    </div>
+                                    <p>Pineapple Smoothie is a tangy and sweet flavor, a vibrant yellow color, and a smooth and creamy texture.</p>
+                                </div>
+                            </li>
+
+                            
+
+                        </ul>
+                    </section>
+                </section>
+
+                <!-- CONTENT OF ABOUT US -->
+                <section class="about-us option d-none">
+                    <article class="about light-black-bg">
+                        <div class="first-info first-info-article">
+                            <div class="first-descript">
+                                <h3>About Ahmeds Cafe</h3>
+                                <p>Ahmeds Cafe started by the current owner Ahmed, also creator of the website called ahmeds cafe.</p>
+                            </div>
+                        </div>
+                        <p>I origanly started 2023 april 15 and only became a popular website may 15 2023. </p>
+                    </article>
+                    
+                    <article class="about light-black-bg">
+                        <div class="first-info second-info-article">
+                            <div class="second-descript">
+                                <h3> Staff </h3>
+                                <p> Ahmed also known as the owner of "Ahmeds cafe".</p>
+                            </div>
+                            <img src="./images/about-2.png" alt="about-2">
+                        </div>
+                        <p class="second-descript"> This cafe is curently hiring candidates for our new staff! </p>
+                    </article>
+                </section>
+
+                <!-- CONTENT OF SPECIAL ITEMS -->
+                <section class="special-items option d-none">
+
+
+                    <article class="spc-item d-grid">
+                        <img class="special-image" src="./images/special-02.jpg" alt="special-02">
+                        <div class="special-info light-black-bg">
+                            <h3 class="special-header blue-option-header">Croissant Special</h3>
+                            <p class="special-descript">French Croissant.</p>
+                        </div>
+                    </article>
+
+                    <article class="spc-item d-grid">
+                        <img class="special-image" src="./images/special-03.jpg" alt="special-03">
+                        <div class="special-info light-black-bg">
+                            <h3 class="special-header blue-option-header">Green Burger Special</h3>
+                            <p class="special-descript">Vegeterian Burger.</p>
+                        </div>
+                    </article>
+
+
+                    <article class="spc-item d-grid">
+                        <img class="special-image" src="./images/special-06.jpg" alt="special-06">
+                        <div class="special-info light-black-bg">
+                            <h3 class="special-header blue-option-header">Chicken Special</h3>
+                            <p class="special-descript">Chicken with Peas.</p>
+                        </div>
+                    </article>
+
+                    
+                </section>
+                
+                <!-- CONTENT OF CONTACT -->
+                <section class="contact option d-none">
+                    <div class="light-black-bg">
+                        <h3 class="contact-header blue-option-header">Contact Ahmeds Cafe </h3>
+                        <p class="contact-descript"> By sending an Email </p>
+                    </div>
+
+                    <div class="contact-form light-black-bg">
+                        <form class="d-grid">
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="Email">
+                            <textarea name="" id="" cols="30" rows="6" placeholder="Message"></textarea>
+                            <input type="submit" value="Submit" class="submit-btn btn">
+                        </form>
+                    </div>
+
+                </section>
+            </section>
+
+            
+
+        </section>
+
+        <footer class="d-flex">
+
+            
+            <section class="copyright d-flex light-black-bg">
+                <P>Copyright Ahmeds cafe 2023</P>
+                <p>Design: <a href=>Ahmed</a></p>
+            </section>
+        </footer>
+
+    </section>
+</body>
+<script src="./js/javaScript.js"></script>
+</html>
